@@ -1,0 +1,23 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+h1{
+	color: black;
+	padding: 60px;
+    position: absolute;
+    left: 50%;
+}
+.articulo{
+    width: 600px;
+    height: 380px;
+    padding: 5px;
+    border-radius: 50px;
+    
+}
+.articulo p{
+    font-size: 2rem;
+    padding: 100px;
+    position: absolute;
+    left: 40%;
+}
