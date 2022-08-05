@@ -10,6 +10,22 @@ background: linear-gradient(90deg, rgb(255, 202, 254) 0%, rgba(70,113,172,0.9724
 	height: 50px;
 	width: 100%;
 }
+.inicio{
+	
+	top: 2%;
+	
+	position: absolute;
+	background-color: #030303;
+	width: 100px;
+	height: 20px;
+	right: 50px;
+	border-radius: 10%;
+	
+}
+.inicio a{
+	
+	color:white;
+}
 h1{
 	
 	text-align: left;
