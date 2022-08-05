@@ -2,16 +2,18 @@
 body{
 	position: relative;
 	text-align: center;
-	background-image: url(img/back_ground.png);
+	background-image: url(img/back_ground_purple.png);
 }
 header{
-	background-color: rgba(152, 152, 152, 0.448);
+	background: rgb(201,212,21);
+background: linear-gradient(90deg, rgb(255, 202, 254) 0%, rgba(70,113,172,0.9724264705882353) 38%, rgba(124, 46, 155, 0.953) 100%);
 	height: 50px;
-	width: 50%;
+	width: 100%;
 }
 h1{
+	
 	text-align: left;
-	color: rgb(38, 115, 115);
+	color: rgb(221, 95, 95);
 }
 .texto_centrado{
 	display: flex;
@@ -47,26 +49,29 @@ h1{
 	display: block;}
 
 #parques_interfaz img{
-	top: 70px;
- width: 70px all;
+	top: 10px;
+ width: 100% all;
  transition: 300ms;
  position: relative;
 
 	height: 500px;
 	border-radius: 20px;
+	box-shadow: 5px 8px 12px rgb(142, 30, 138);
 	object-fit: cover;
 }
 #parques_interfaz img:hover{
 	transform: scale(1.15);
+	box-shadow: 5px 8px 12px rgb(244, 213, 203);
+
 }
 
 /* parte de sceach */
 .buscador {
 	position: absolute;
-	top: 18%;
+	
 	left: 88%;
-	transform: translate(-50%,-50%);
-	padding: 10px;
+	transform: translate(-60%,-30%);
+	padding: 18px;
 }
 input {
 	outline: none;
@@ -91,14 +96,19 @@ input {
 /*parte de rank */
 .menu-secundario{
 	position: absolute;
-	top: 200px;
+	top: 100px;
 	right: 10px;
 
 }
 .menu-secundario{
 	width: 20%;
 	margin-top: 60px; 
-	background-color: coral;
+background: #654ea3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+border-radius: 20px;
 } 
 
 .menu-secundario a {
@@ -106,4 +116,24 @@ input {
 	text-align: center;
 	color: rgb(255, 255, 255); 
 	margin-bottom: 20px;	 	
+}
+p{
+	color: rgb(240, 240, 240);
+	transform: translate(5%,-20%);
+	background-color: rgba(68, 68, 68, 0.447);
+	position: relative;
+	width: 200px;
+	height: 20px;
+	border-radius: 5px;
+	font: oblique bold 100% cursive;
+}
+.cont{
+	height: 570px;
+	width: 220px;
+	background: rgb(201,212,21);
+background: radial-gradient(circle, rgba(201,212,21,1) 0%, rgba(255, 193, 188, 0.972) 38%, rgba(251, 125, 192, 0.953) 100%);
+	margin-top: 60px; 
+	border-radius: 20px;
+	
+	
 }

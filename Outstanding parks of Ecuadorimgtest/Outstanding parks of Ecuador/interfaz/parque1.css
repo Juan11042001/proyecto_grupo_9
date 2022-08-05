@@ -1,12 +1,37 @@
+/*all*/
 *{
 	padding: 0;
 	margin: 0;
 }
+/* badground principal*/
+
+header{
+  background-image: url(../img/parque_back_g.png) ;
+  height: 75px;
+}
+.inicio{
+  display: flex;
+ position: relative;
+  height: 60px;
+  width: 60px;
+  left: 30px;
+  top: 5px;
+
+
+}
+#inicio img{
+  transition: 300ms;
+}
+#inicio img:hover{
+  transform: scale(1.15);
+  transform: rotate(-90deg);
+}
 h1{
-	color: rgba(40, 15, 206, 0.738);
-	padding: 60px;
+  font: oblique bold 275% cursive;
+	color: rgb(32, 32, 32);
+	padding: 10px;
     position: absolute;
-    left: 50%;
+    left: 60%;
 }
 .articulo{
     margin-top: -50px;
@@ -21,16 +46,22 @@ h1{
     padding: 100px;
     position: absolute;
     left: 40%;
+    font: oblique bold 200% cursive;
 }
 iframe{
  background-color: aqua;
+ height: 600px;
+ width: 600px;
+ border: 80px; 
+ border-radius: 10px;
+ border-color: aqua;
  float:right;
  top: 100px;
- left: 650px;
+ left: 700px;
  position: relative;
 }
 body{
-    background-color: rgba(18, 221, 133, 0.645);
+    background-color: rgb(255, 234, 228);
     font-family: sans-serif;
   }
 
@@ -79,7 +110,7 @@ body{
 
   .menu{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: -20px 230px;
+    margin: -10px 110px;
   }
 
   .menu li{
@@ -88,7 +119,7 @@ body{
   }
 
   .menu li a{
-    background-color: blue;
+    background-color: rgb(232, 178, 255);
     color: black;
     display: inline-block;
     text-decoration: none;
@@ -112,16 +143,18 @@ body{
   margin: 780px -600px;
   color: aliceblue;
 }
+/* imagen de red socila */
 .redSocial{
   font-size: 2rem;
   padding: 10px;
   position: absolute;
   left: 150%;
   margin: -50px -790px;
-}
+}/*pie de pagina */
   footer{
+    
     margin-top: 300px;
     width: 100%;
     height: 150%;
-    background-color: black;
+    background-color: rgb(30, 29, 29);
 }  
