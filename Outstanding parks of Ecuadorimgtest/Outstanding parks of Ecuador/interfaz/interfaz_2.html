@@ -101,6 +101,45 @@
 		
 		<footer>
 			<div class="articulo"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.794886437351!2d-78.47538338590361!3d-0.19637383546199183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d5914858cb3d3b%3A0x52a0bdb64de13656!2sParque%20Gu%C3%A1pulo!5e0!3m2!1ses!2sec!4v1659395738389!5m2!1ses!2sec"  width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+			
+			
+			
+			<div class="comentarioGeneral">
+			  <textarea type="text" id="prueba" rows="10" cols="40"></textarea>
+			  <button type="button" id="boton" onclick="procesar()">Comentar</button>
+	
+			  <div id="todosComentarios">
+			  
+			  </div>
+	
+		  </div>
+		
+		
+		
+		
+		
+		
+		
+		
 		</footer>
 
+
+
+
+
 		</html>
+		<script>
+			function procesar(){
+				var comment= document.getElementById("prueba").value
+				alert(comment);
+				
+				document.getElementById("todosComentario").innerText <= comment;
+				}
+			</script>
+
+
+
+
+
+
+

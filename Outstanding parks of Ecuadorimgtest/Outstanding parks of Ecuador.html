@@ -14,15 +14,22 @@
 				<div class="inicio">
 					<a href="Outstanding parks of Ecuador/interfaz/reg-in/web/login.html">iniciar Sesion</a>
 				</div>
+				
 				<div class="buscador">	
+					
 					<div class="container">
-						<input type="text" id = "busca"placeholder="Escriba la palabra">
-						<button onclick="on_click()">buscar</button>
+						<input type="text" id="buscar-pal" onkeyup="autocompletado()" style="border: solid 2px">
+			<div>
+		  		<ul id="demo"></ul>
+			</div>
+			<script src="Outstanding parks of Ecuador/js/script.js"></script>		
+			<button type="button" id="boton" onclick="autocompletado()">Buscar</button>
+		</div>	
+		
+			</div>
 
-						<div class="btn">
-								 </div>	
-							 </div>	
-							</div>
+
+
 			</header>
 			<main>
 				<section>

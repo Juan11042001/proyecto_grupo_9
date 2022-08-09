@@ -150,10 +150,25 @@ body{
   position: absolute;
   left: 150%;
   margin: -50px -790px;
-}/*pie de pagina */
+}
+/*comentarios*/
+.comentario{
+  position: relative;
+  margin: 60px 50px;
+}
+.comentarioGeneral button{
+background-color: aqua;
+}
+.comentarioGeneral label{
+  background-color: aqua;
+  
+  }
+
+
+
+/*pie de pagina */
   footer{
-    
-    margin-top: 300px;
+    margin-top: 380px;
     width: 100%;
     height: 150%;
     background-color: rgb(30, 29, 29);

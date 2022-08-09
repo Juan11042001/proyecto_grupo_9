@@ -146,3 +146,20 @@ header{
 .btn btn-primary{
     color: #92249c;
 }
+.inicio{
+    display: flex;
+   position: relative;
+    height: 60px;
+    width: 60px;
+    left: 30px;
+    top: 5px;
+  
+  
+  }
+  #inicio img{
+    transition: 300ms;
+  }
+  #inicio img:hover{
+    transform: scale(1.15);
+    transform: rotate(-90deg);
+  }

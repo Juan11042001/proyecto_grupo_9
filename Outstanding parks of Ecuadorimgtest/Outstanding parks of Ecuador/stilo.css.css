@@ -118,7 +118,7 @@ input {
 }
 .menu-secundario{
 	width: 20%;
-	margin-top: 60px; 
+	margin-top: 120px; 
 background: #654ea3;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -152,4 +152,10 @@ background: radial-gradient(circle, rgba(201,212,21,1) 0%, rgba(255, 193, 188, 0
 	border-radius: 20px;
 	
 	
+}
+.buton{
+	right: 0px;
+	top: 0px;
+	width: 80px;
+	height: 50px;
 }
