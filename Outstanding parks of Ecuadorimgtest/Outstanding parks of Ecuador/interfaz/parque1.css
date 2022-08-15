@@ -26,13 +26,15 @@ header{
   transform: scale(1.15);
   transform: rotate(-90deg);
 }
+/* titulo*/
 h1{
   font: oblique bold 275% cursive;
 	color: rgb(32, 32, 32);
 	padding: 10px;
     position: absolute;
     left: 60%;
-}
+  }
+  /*informacion de la historia del parque*/
 .articulo{
     margin-top: -50px;
     width: 600px;
@@ -70,7 +72,7 @@ body{
       margin: 0;
       list-style: none;
   }
-
+/* modificador de las imagenes del menu*/
   ul.slider{
     position: relative;
     width: 800px;
@@ -107,7 +109,7 @@ body{
   ul.slider li:target {
       opacity: 1; 
   }
-
+/*apartado del menu de las imagenes y cambio de estas*/
   .menu{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: -10px 110px;
@@ -123,12 +125,13 @@ body{
     color: black;
     display: inline-block;
     text-decoration: none;
-    padding: 10px;
+    padding: 1px;
     width: 60px;
     height: 20px;
     font-size: 20px;
     border-radius: 100%;
   }
+  /*informacion del parque*/
 .articulo2{
   width: 100px;
     height: 100px;
@@ -151,25 +154,10 @@ body{
   left: 150%;
   margin: -50px -790px;
 }
-/*comentarios*/
-.comentario{
-  position: relative;
-  margin: 60px 50px;
-}
-.comentarioGeneral button{
-background-color: aqua;
-}
-.comentarioGeneral label{
-  background-color: aqua;
-  
-  }
-
-
-
 /*pie de pagina */
   footer{
     margin-top: 380px;
     width: 100%;
     height: 150%;
     background-color: rgb(30, 29, 29);
-}  
+} 
