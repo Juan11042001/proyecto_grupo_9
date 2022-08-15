@@ -142,6 +142,7 @@ footer{
 }
 header{
     background: gray;
+    height: 70px;
 }
 .btn btn-primary{
     color: #92249c;
