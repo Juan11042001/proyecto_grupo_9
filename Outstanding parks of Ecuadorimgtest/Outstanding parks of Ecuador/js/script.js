@@ -1,3 +1,5 @@
+//buscador 
+
 function autocompletado() {
   document.getElementById("demo").innerHTML = '';
 

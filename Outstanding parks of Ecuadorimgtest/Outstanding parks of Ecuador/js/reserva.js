@@ -23,12 +23,13 @@ var cedula = document.getElementById("cedula").value;
 var hora = document.getElementById("hora").value;
 var hora2 = document.getElementById("hora2").value;
 var fech = document.getElementById("fechaReserva").value;
+// parte de reservaciones 
 /* js de como funciona el overlay */
 boton.addEventListener("click" ,function(){
 overlay.classList.add("active") ;
 pop.classList.add("active");
 })
-
+//se crea un evento que añade active  para que aparesca 
 close.addEventListener("click", function(){
 overlay.classList.remove("active")
 pop.classList.remove("active");

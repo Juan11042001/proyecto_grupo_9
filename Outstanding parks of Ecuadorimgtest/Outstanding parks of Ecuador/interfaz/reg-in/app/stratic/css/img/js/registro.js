@@ -1,12 +1,12 @@
 var datos = [];
-  
-
+var Correo 
+var Contraseña
 function agregarUsuario() {
   var Nombre = document.getElementById("name").value;
   var Apellido = document.getElementById("apellido").value;
- var Contraseña = document.getElementById("contraseña").value;
+  Contraseña = document.getElementById("contraseña").value;
   var Cedula = document.getElementById("cedula").value;
- var Correo = document.getElementById("correo").value;
+  Correo = document.getElementById("correo").value;
   var Sexo = document.querySelector('input[name="sexo"]:checked').value;
   var Direccion = document.getElementById("direccion").value;
   var Nacimiento = document.querySelector('input[name="nacimiento"]').value;
@@ -75,14 +75,14 @@ function login() {
     
   }
  
-    if (usuariu == usuario && cotra == clave) {
+   /* if (usuariu == Correo && cotra == Contraseña) {
       alert("hola")
       window.location.href = "../../../../Outstanding parks of Ecuador.html";
       //window.open("../../../../Outstanding.html");
       
-    }
+    }*/
     else{
-      alert("tmr")
+      alert("datos incorrectos")
     }
   
 
