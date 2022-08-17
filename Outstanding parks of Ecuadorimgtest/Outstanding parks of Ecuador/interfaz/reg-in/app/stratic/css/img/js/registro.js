@@ -1,3 +1,4 @@
+/*
 var datos = [];
 var Correo =""
 var Contraseña=""
@@ -80,7 +81,7 @@ function login() {
       window.location.href = "../../../../Outstanding parks of Ecuador.html";
       //window.open("../../../../Outstanding.html");
       
-    }*/
+    }
     else{
       alert("datos incorrectos")
     }
@@ -88,3 +89,25 @@ function login() {
 
 
 }
+*/
+function guardar(){
+   
+  var _nom = document.getElementById("name").value;
+  var _ape = document.getElementById("apellido").value;
+  var _ced = document.getElementById("cedula").value;
+  var _con = document.getElementById("contraseña").value;
+  var _cor = document.getElementById("correo").value;
+  var _dir = document.getElementById("direccion").value;
+  var _tel = document.getElementById("telefono").value;
+  var _nac = document.getElementById("nacimiento").value;
+  var Sexo= document.querySelector('input[name="sexo"]:checked').value;
+
+
+
+  var fila="<td>"+_nom+"</td><td>"+_ape +"</td><td>"+_ced +"</td><td>"+_con +"</td><td>"+_cor + "</td><td>"+_dir +"</td><td>"+_tel +"</td><td>"+_nac +"</td><td>"+Sexo+"</td>";
+
+  var btn = document.createElement("TR");
+   btn.innerHTML=fila;
+  document.getElementById("tablita").appendChild(btn);
+}
+
