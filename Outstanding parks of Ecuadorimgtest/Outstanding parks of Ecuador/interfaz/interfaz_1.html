@@ -100,16 +100,7 @@ Juan Hidalgo reside en el sector de Quitumbe y frecuenta los fines de semana el 
 		<div class="popup" id="popup">
 			
 			<a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup">X</a>
-			<div class="cuadrito">
-				<p>
-					<h2>parque fundeporte </h2>
-					tu reservacion a sido exitosa : <br>
-					datos: <br>
-					cedula: <br>
-					nombre: <br>
-
-				</p>
-							</div>
+			<div class="cuadrito" id="textito"></div>
 			   <div>
 			<h3>RESERVAR</h3>
 			<form action="">
@@ -119,16 +110,8 @@ Juan Hidalgo reside en el sector de Quitumbe y frecuenta los fines de semana el 
 					<p><input type="text" name="parque" id="name"  placeholder="Ingrese sus nombres" required></p>
 					<label>CEDULA</label>
 					<p><input type="number" name="parque" id="cedula" placeholder="Ingrese su cedula" required></p>
-					<label>HORA DE ENTRADA</label>
-					<p><input type="time" name="parque" id="hora"  required></p>
-					<label>HORA DE SALIDA</label>
-					<p><input type="time" name="parque" id="hora2"  required></p>
-					<!--
-					<label>parques </label>
-					<p><input type="radio" name="parque" id="" value="1">1</p>
-					<p><input type="radio" name="parque" id="" value="2">2</p>
-					<p><input type="radio" name="parque" id="" value="3">3</p>
-					<p><input type="radio" name="parque" id="" value="4">4</p>-->
+					
+					
 					<div class="form-group">
 						<label class="control-label col-md-1 col-sm-3 col-xs-12">FECHA <span class="required">*</span>
 						</label>
@@ -141,7 +124,7 @@ Juan Hidalgo reside en el sector de Quitumbe y frecuenta los fines de semana el 
 					<br>
 					<br>
 					
-				  <button class="btn btn-primary" onclick="reservacion()"> RESERVAR</a></button>
+				  <button type="submit" class="btn btn-primary" onclick="reservacion()"> RESERVAR</a></button>
 				  
 				   </div>
 			</form>
