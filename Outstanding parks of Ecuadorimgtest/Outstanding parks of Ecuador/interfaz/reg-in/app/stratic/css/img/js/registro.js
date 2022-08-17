@@ -1,6 +1,6 @@
 var datos = [];
-var Correo 
-var Contraseña
+var Correo =""
+var Contraseña=""
 function agregarUsuario() {
   var Nombre = document.getElementById("name").value;
   var Apellido = document.getElementById("apellido").value;
@@ -54,7 +54,7 @@ function agregarUsuario() {
     alert("el apellido es obligatorio");
     document.write("apellido").focus();
   }
-  window.location.href = "../../../interfaz/reg-in/web/login.html";
+ // window.location.href = "../../../interfaz/reg-in/web/login.html";
   //window.open("../../../../Outstanding parks of Ecuador.html");
   alert(datos);
 }
@@ -67,8 +67,8 @@ function login() {
  
  
   
-  alert(datos) ;
-  if (usuariu == 1234 && cotra == 1234) {
+  alert(Correo + Contraseña) ;
+  if (usuariu == Correo && cotra == Contraseña) {
    
     window.location.href = "../../../../Outstanding parks of Ecuador.html";
     //window.open("../../../../Outstanding.html");
