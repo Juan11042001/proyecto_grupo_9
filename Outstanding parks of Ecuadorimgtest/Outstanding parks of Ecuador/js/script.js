@@ -27,11 +27,11 @@ function autocompletado() {
     }
 
     if(pal.toUpperCase()=="PARQUE LAS CUADRAS"){
-      window.open("../Outstanding%20parks%20of%20Ecuadorimgtest/Outstanding%20parks%20of%20Ecuador/interfaz/interfaz_4.html");
+      window.location.href ="../Outstanding%20parks%20of%20Ecuadorimgtest/Outstanding%20parks%20of%20Ecuador/interfaz/interfaz_4.html";
     }
 
     if(pal.toUpperCase()=="PARQUE METROPOLITANO"){
-      window.open("../Outstanding%20parks%20of%20Ecuadorimgtest/Outstanding%20parks%20of%20Ecuador/interfaz/interfaz_5.html");
+      window.location.href ="../Outstanding%20parks%20of%20Ecuadorimgtest/Outstanding%20parks%20of%20Ecuador/interfaz/interfaz_5.html";
     }
 
    }

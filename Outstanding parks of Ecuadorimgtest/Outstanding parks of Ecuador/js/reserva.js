@@ -17,12 +17,12 @@ var boton = document.getElementById("boton");
 /* js de como funciona el overlay */
 boton.addEventListener("click" ,function(){
 overlay.classList.add("active") ;
-pop.classList.add("active");
+
 })
-//se crea un evento que añade active  para que aparesca 
+
 close.addEventListener("click", function(){
 overlay.classList.remove("active")
-pop.classList.remove("active");
+
 })
 
 function reservacion(){
@@ -40,17 +40,17 @@ var min=1111;
  var code = Math.floor(Math.random() * (max - min) ) + min;
     
 
-    if (nombres == "" && cedul=="") 
+    if (nombres == "" && cedul==""&fecha=="") 
     {  
      
-            console.log("correcto");
+            console.log("error");
             alert("LO SIENTO, SU RESERVACION NO SE HA COMPLETADO"); 
      
     }
       else {
         
             document.getElementById("textito").innerHTML = "FELICIDADES <br>"  + " SU RESERVACION SE A REALIZADO CON EXITO <br> PARA EL DIA: "+ fecha+"  <br> A NOMBRE DE :"+nombres+"<br> CODIGO DE RESERVACION: "+code +"<br> CEDULA:" + cedul + "<br> LOS DATOS PROPORCIONADOS DEBEN SER ENTREGADOS EN LA RECEPCION "  ;
-            console.log("error");
+            console.log("correcto");
            // alert("FELICIDADES " + nombres + " EL LUGAR DE SU RESERVACION TIENE SU CEDULA: " + cedula + " LA CUAL USTED DEBE ENTREGAR EL DIA QUE RESERVO " );
 
     }
